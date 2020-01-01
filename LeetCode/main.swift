@@ -8,7 +8,7 @@
 
 import Foundation
 
-let leetCode = Solution()
+let solution = Solution()
 
-let result = leetCode.twoSum([2,7,11,15], 9)
+let result = solution.twoSum([2,7,11,15], 9)
 print(result)

@@ -10,12 +10,14 @@ import Foundation
 
 class Solution {
   func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    var map: [Int: Int] = [:]
     for i in 0..<nums.count {
-      let j = i + 1
-      for k in j..<nums.count {
-        if nums[i] + nums[k] == target {
-          return [i, k]
-        }
+      map[nums[i]] = i
+    }
+    for i in 0..<nums.count {
+      let complement = target - nums[i]
+      if map.keys.contains(complement) && map[complement] != i {
+        return [i, map[complement]!]
       }
     }
     return [-1, -1]
