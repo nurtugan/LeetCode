@@ -16,7 +16,7 @@ class Solution {
     }
     for i in 0..<nums.count {
       let complement = target - nums[i]
-      if map.keys.contains(complement) && map[complement] != i {
+      if let value = map[complement], value != i {
         return [i, map[complement]!]
       }
     }
