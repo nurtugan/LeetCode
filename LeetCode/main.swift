@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let leetCode = Solution()
 
+let result = leetCode.twoSum([2,7,11,15], 9)
+print(result)
