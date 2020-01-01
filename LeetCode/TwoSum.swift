@@ -12,13 +12,11 @@ class Solution {
   func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     var map: [Int: Int] = [:]
     for i in 0..<nums.count {
-      map[nums[i]] = i
-    }
-    for i in 0..<nums.count {
       let complement = target - nums[i]
-      if let value = map[complement], value != i {
-        return [i, value]
+      if let value = map[complement] {
+        return [value, i]
       }
+      map[nums[i]] = i
     }
     return [-1, -1]
   }
