@@ -11,6 +11,7 @@
 		676C00E423BD062B00C62D62 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00E323BD062B00C62D62 /* TwoSum.swift */; };
 		676C00E823BE177200C62D62 /* DefanginganIPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00E723BE177200C62D62 /* DefanginganIPAddress.swift */; };
 		676C00EA23BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */; };
+		676C00ED23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		676C00E323BD062B00C62D62 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		676C00E723BE177200C62D62 /* DefanginganIPAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefanginganIPAddress.swift; sourceTree = "<group>"; };
 		676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumberswithEvenNumberofDigits.swift; sourceTree = "<group>"; };
+		676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtracttheProductandSumofDigitsofanInteger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +68,20 @@
 			isa = PBXGroup;
 			children = (
 				676C00DC23BD060300C62D62 /* main.swift */,
+				676C00EB23BE1E4400C62D62 /* Easy */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		676C00EB23BE1E4400C62D62 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
 				676C00E323BD062B00C62D62 /* TwoSum.swift */,
 				676C00E723BE177200C62D62 /* DefanginganIPAddress.swift */,
 				676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */,
+				676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */,
 			);
-			path = LeetCode;
+			path = Easy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 				676C00E423BD062B00C62D62 /* TwoSum.swift in Sources */,
 				676C00DD23BD060300C62D62 /* main.swift in Sources */,
 				676C00EA23BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift in Sources */,
+				676C00ED23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

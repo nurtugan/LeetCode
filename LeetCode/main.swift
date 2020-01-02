@@ -10,5 +10,5 @@ import Foundation
 
 let solution = Solution()
 
-let result = solution.findNumbers([12,345,2,6,7896])
+let result = solution.subtractProductAndSum(234)
 print(result)
