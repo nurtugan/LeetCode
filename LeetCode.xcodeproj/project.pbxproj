@@ -12,6 +12,7 @@
 		676C00E823BE177200C62D62 /* DefanginganIPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00E723BE177200C62D62 /* DefanginganIPAddress.swift */; };
 		676C00EA23BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */; };
 		676C00ED23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */; };
+		676C00EF23BE22C700C62D62 /* JewelsandStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00EE23BE22C700C62D62 /* JewelsandStones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		676C00E723BE177200C62D62 /* DefanginganIPAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefanginganIPAddress.swift; sourceTree = "<group>"; };
 		676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumberswithEvenNumberofDigits.swift; sourceTree = "<group>"; };
 		676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtracttheProductandSumofDigitsofanInteger.swift; sourceTree = "<group>"; };
+		676C00EE23BE22C700C62D62 /* JewelsandStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsandStones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				676C00E723BE177200C62D62 /* DefanginganIPAddress.swift */,
 				676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */,
 				676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */,
+				676C00EE23BE22C700C62D62 /* JewelsandStones.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				676C00DD23BD060300C62D62 /* main.swift in Sources */,
 				676C00EA23BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift in Sources */,
 				676C00ED23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift in Sources */,
+				676C00EF23BE22C700C62D62 /* JewelsandStones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

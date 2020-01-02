@@ -10,5 +10,5 @@ import Foundation
 
 let solution = Solution()
 
-let result = solution.subtractProductAndSum(234)
+let result = solution.numJewelsInStones("aA", "aAAbbbb")
 print(result)
