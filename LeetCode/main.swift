@@ -10,5 +10,5 @@ import Foundation
 
 let solution = Solution()
 
-let result = solution.defangIPaddr("1.1.1.1")
+let result = solution.findNumbers([12,345,2,6,7896])
 print(result)
