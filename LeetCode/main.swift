@@ -18,3 +18,9 @@ l2.next = l3
 
 let result = solution.getDecimalValue(l1)
 print(result)
+
+let task = """
+Convert Binary Number in a Linked List to Integer
+"""
+print(task.capitalized
+  .replacingOccurrences(of: " ", with: ""))

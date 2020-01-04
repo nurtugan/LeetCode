@@ -1,5 +1,5 @@
 //
-//  ConvertBinaryNumberinaLinkedListtoInteger.swift
+//  ConvertBinaryNumberInALinkedListToInteger.swift
 //  LeetCode
 //
 //  Created by Nurtugan Nuraly on 1/2/20.
