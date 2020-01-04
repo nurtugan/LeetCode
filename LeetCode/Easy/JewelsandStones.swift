@@ -6,8 +6,6 @@
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
-import Foundation
-
 extension Solution {
   func numJewelsInStones(_ J: String, _ S: String) -> Int {
     var jewelAmount = 0

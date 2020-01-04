@@ -6,8 +6,6 @@
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
-import Foundation
-
 extension Solution {
   func subtractProductAndSum(_ n: Int) -> Int {
     var n = n, sum = 0, product = 1

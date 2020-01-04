@@ -6,8 +6,6 @@
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
-import Foundation
-
 class Solution {
   func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     var map: [Int: Int] = [:]

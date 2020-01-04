@@ -6,8 +6,6 @@
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
-import Foundation
-
 extension Solution {
   func findNumbers(_ nums: [Int]) -> Int {
     var count = 0

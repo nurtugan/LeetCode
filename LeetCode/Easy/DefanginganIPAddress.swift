@@ -6,8 +6,6 @@
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
-import Foundation
-
 extension Solution {
   func defangIPaddr(_ address: String) -> String {
     address.replacingOccurrences(of: ".", with: "[.]")
