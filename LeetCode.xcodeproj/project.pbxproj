@@ -13,6 +13,7 @@
 		676C00EA23BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */; };
 		676C00ED23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */; };
 		676C00EF23BE22C700C62D62 /* JewelsandStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00EE23BE22C700C62D62 /* JewelsandStones.swift */; };
+		676C00F123BE26A300C62D62 /* ConvertBinaryNumberinaLinkedListtoInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00F023BE26A300C62D62 /* ConvertBinaryNumberinaLinkedListtoInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumberswithEvenNumberofDigits.swift; sourceTree = "<group>"; };
 		676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtracttheProductandSumofDigitsofanInteger.swift; sourceTree = "<group>"; };
 		676C00EE23BE22C700C62D62 /* JewelsandStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsandStones.swift; sourceTree = "<group>"; };
+		676C00F023BE26A300C62D62 /* ConvertBinaryNumberinaLinkedListtoInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertBinaryNumberinaLinkedListtoInteger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				676C00E923BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift */,
 				676C00EC23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift */,
 				676C00EE23BE22C700C62D62 /* JewelsandStones.swift */,
+				676C00F023BE26A300C62D62 /* ConvertBinaryNumberinaLinkedListtoInteger.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				676C00DD23BD060300C62D62 /* main.swift in Sources */,
 				676C00EA23BE191600C62D62 /* FindNumberswithEvenNumberofDigits.swift in Sources */,
 				676C00ED23BE1EA900C62D62 /* SubtracttheProductandSumofDigitsofanInteger.swift in Sources */,
+				676C00F123BE26A300C62D62 /* ConvertBinaryNumberinaLinkedListtoInteger.swift in Sources */,
 				676C00EF23BE22C700C62D62 /* JewelsandStones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

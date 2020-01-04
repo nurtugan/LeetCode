@@ -10,5 +10,11 @@ import Foundation
 
 let solution = Solution()
 
-let result = solution.numJewelsInStones("aA", "aAAbbbb")
+let l1 = ListNode(1)
+let l2 = ListNode(0)
+let l3 = ListNode(1)
+l1.next = l2
+l2.next = l3
+
+let result = solution.getDecimalValue(l1)
 print(result)
