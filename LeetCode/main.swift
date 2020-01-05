@@ -10,11 +10,11 @@ import Foundation
 
 let solution = Solution()
 
-let result = solution.balancedStringSplit("RLRRLLRLRL")
+let result = solution.toLowerCase("QWErty")
 print(result)
 
 let task = """
-Split a String in Balanced Strings
+To Lower Case
 """
 print(task.capitalized
   .replacingOccurrences(of: " ", with: ""))
