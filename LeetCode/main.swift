@@ -10,11 +10,11 @@ import Foundation
 
 let solution = Solution()
 
-let result = solution.toLowerCase("QWErty")
+let result = solution.lengthOfLastWord(" Length")
 print(result)
 
 let task = """
-To Lower Case
+Length of Last Word
 """
 print(task.capitalized
   .replacingOccurrences(of: " ", with: ""))
