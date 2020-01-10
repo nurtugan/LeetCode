@@ -8,6 +8,7 @@
 
 extension Solution {
   
+  // MARK: - Sorting method in this case is merge sort
   func sortedSquares(_ A: [Int]) -> [Int] {
     var squaredNums: [Int] = []
     for num in A {
@@ -65,5 +66,26 @@ extension Solution {
       }
       
       return result
+  }
+}
+
+extension Solution {
+  
+  // MARK: - Two pointers method
+  //         Time complexity is O(n)
+  func sortedSquaresSecondEdition(_ A: [Int]) -> [Int] {
+    let n = A.count
+    var result = Array(repeating: 0, count: n)
+    var i = 0, j = n - 1
+    for p in stride(from: n - 1, through: 0, by: -1) {
+      if abs(A[i]) > abs(A[j]) {
+        result[p] = A[i] * A[i]
+        i += 1
+      } else {
+        result[p] = A[j] * A[j]
+        j -= 1
+      }
+    }
+    return result
   }
 }

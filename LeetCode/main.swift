@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent()
 
-let result = solution.sortedSquares([-4,-1,0,3,10])
+let result = solution.sortedSquaresSecondEdition([-4,-1,0,3,10])
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
 
