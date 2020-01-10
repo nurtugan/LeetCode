@@ -1,20 +1,28 @@
 //
-//  SquaresOfASortedArray.swift
+//  N-RepeatedElementInSize2NArray.swift
 //  LeetCode
 //
-//  Created by Nurtugan Nuraly on 1/10/20.
+//  Created by Nurtugan Nuraly on 1/11/20.
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
 extension Solution {
-  
-  // MARK: - Sorting method in this case is merge sort
-  func sortedSquares(_ A: [Int]) -> [Int] {
-    var squaredNums: [Int] = []
-    for num in A {
-      squaredNums.append(num * num)
+  func repeatedNTimes(_ A: [Int]) -> Int {
+    let n = A.count / 2
+    var count = 1
+    let sortedArray = mergeSort(A)
+    for i in 0..<sortedArray.count - 1 {
+      if sortedArray[i] == sortedArray[i + 1] {
+        count += 1
+        if n == count {
+          return sortedArray[i]
+        }
+      } else {
+        count = 1
+      }
     }
-    return mergeSort(squaredNums)
+    
+    return -1
   }
   
   private func mergeSort<Element>(_ array: [Element])
@@ -47,7 +55,7 @@ extension Solution {
         if leftElement < rightElement {
           result.append(leftElement)
           leftIndex += 1
-        } else if leftElement > rightElement {
+        } else  if leftElement > rightElement {
           result.append(rightElement)
           rightIndex += 1
         } else {
@@ -66,26 +74,5 @@ extension Solution {
       }
       
       return result
-  }
-}
-
-extension Solution {
-  
-  // MARK: - Two pointers method
-  //         Time complexity is O(n)
-  func sortedSquaresSecondEdition(_ A: [Int]) -> [Int] {
-    let n = A.count
-    var result = Array(repeating: 0, count: n)
-    var i = 0, j = n - 1
-    for p in stride(from: n - 1, through: 0, by: -1) {
-      if abs(A[i]) > abs(A[j]) {
-        result[p] = A[i] * A[i]
-        i += 1
-      } else {
-        result[p] = A[j] * A[j]
-        j -= 1
-      }
-    }
-    return result
   }
 }

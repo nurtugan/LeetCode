@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent()
 
-let result = solution.sortedSquaresSecondEdition([-4,-1,0,3,10])
+let result = solution.repeatedNTimes([1,2,3,3])
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
 
@@ -20,7 +20,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Squares of a Sorted Array
+N-Repeated Element in Size 2N Array
 """
 print(
   task
