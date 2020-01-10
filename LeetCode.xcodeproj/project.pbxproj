@@ -17,6 +17,7 @@
 		676C00ED23BE1EA900C62D62 /* SubtractTheProductAndSumOfDigitsOfAnInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00EC23BE1EA900C62D62 /* SubtractTheProductAndSumOfDigitsOfAnInteger.swift */; };
 		676C00EF23BE22C700C62D62 /* JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00EE23BE22C700C62D62 /* JewelsAndStones.swift */; };
 		676C00F123BE26A300C62D62 /* ConvertBinaryNumberInALinkedListToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00F023BE26A300C62D62 /* ConvertBinaryNumberInALinkedListToInteger.swift */; };
+		67A322DB23C8D62B00EB746D /* SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A322DA23C8D62B00EB746D /* SquaresOfASortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		676C00EC23BE1EA900C62D62 /* SubtractTheProductAndSumOfDigitsOfAnInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractTheProductAndSumOfDigitsOfAnInteger.swift; sourceTree = "<group>"; };
 		676C00EE23BE22C700C62D62 /* JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStones.swift; sourceTree = "<group>"; };
 		676C00F023BE26A300C62D62 /* ConvertBinaryNumberInALinkedListToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertBinaryNumberInALinkedListToInteger.swift; sourceTree = "<group>"; };
+		67A322DA23C8D62B00EB746D /* SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				6702656423C0AE6E009F4B4C /* SplitAStringInBalancedStrings.swift */,
 				6766B84823C20D9700FEDA63 /* ToLowerCase.swift */,
 				6766B84A23C2158300FEDA63 /* LengthOfLastWord.swift */,
+				67A322DA23C8D62B00EB746D /* SquaresOfASortedArray.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A322DB23C8D62B00EB746D /* SquaresOfASortedArray.swift in Sources */,
 				676C00E823BE177200C62D62 /* DefangingAnIpAddress.swift in Sources */,
 				676C00E423BD062B00C62D62 /* TwoSum.swift in Sources */,
 				6766B84923C20D9700FEDA63 /* ToLowerCase.swift in Sources */,

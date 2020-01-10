@@ -10,11 +10,20 @@ import Foundation
 
 let solution = Solution()
 
-let result = solution.lengthOfLastWord(" Length")
+let startTime = CFAbsoluteTimeGetCurrent()
+
+let result = solution.sortedSquares([-4,-1,0,3,10])
+
+let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime
+
 print(result)
+print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Length of Last Word
+Squares of a Sorted Array
 """
-print(task.capitalized
-  .replacingOccurrences(of: " ", with: ""))
+print(
+  task
+    .capitalized
+    .replacingOccurrences(of: " ", with: "")
+)
