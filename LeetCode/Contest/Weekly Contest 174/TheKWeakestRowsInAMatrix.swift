@@ -18,7 +18,6 @@ extension Solution {
       dict[index] = count
     }
     
-    
     let sortedDict = dict.sorted { firstElement, secondElement -> Bool in
       if firstElement.value == secondElement.value {
         return firstElement.key < secondElement.key

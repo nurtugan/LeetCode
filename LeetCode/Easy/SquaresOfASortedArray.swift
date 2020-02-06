@@ -7,7 +7,6 @@
 //
 
 extension Solution {
-  
   // MARK: - Sorting method in this case is merge sort
   func sortedSquares(_ A: [Int]) -> [Int] {
     var squaredNums: [Int] = []
@@ -70,7 +69,6 @@ extension Solution {
 }
 
 extension Solution {
-  
   // MARK: - Two pointers method
   //         Time complexity is O(n)
   func sortedSquaresSecondEdition(_ A: [Int]) -> [Int] {

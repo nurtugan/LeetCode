@@ -19,7 +19,6 @@ class TreeNode {
 
 // Function to find sum of all the element
 extension Solution {
-  
   func maxProduct(_ root: TreeNode?) -> Int {
     var total = 0, res = 0
     

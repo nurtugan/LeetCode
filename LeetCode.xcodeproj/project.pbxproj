@@ -20,6 +20,8 @@
 		6784885923E843200029B7F8 /* TheKWeakestRowsInAMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6784885823E843200029B7F8 /* TheKWeakestRowsInAMatrix.swift */; };
 		6784885B23E84C290029B7F8 /* ReduceArraySizeToTheHalf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6784885A23E84C290029B7F8 /* ReduceArraySizeToTheHalf.swift */; };
 		6784885D23E855440029B7F8 /* MaximumProductOfSplittedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6784885C23E855440029B7F8 /* MaximumProductOfSplittedBinaryTree.swift */; };
+		679B451823EAEC6A00586368 /* Maximum69Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679B451723EAEC6A00586368 /* Maximum69Number.swift */; };
+		679B451A23EAEEA300586368 /* PrintWordsVertically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679B451923EAEEA300586368 /* PrintWordsVertically.swift */; };
 		67A322DB23C8D62B00EB746D /* SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A322DA23C8D62B00EB746D /* SquaresOfASortedArray.swift */; };
 		67A322DF23C903D700EB746D /* N-RepeatedElementInSize2NArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A322DE23C903D700EB746D /* N-RepeatedElementInSize2NArray.swift */; };
 		67A322E723CA258700EB746D /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A322E623CA258700EB746D /* SingleNumber.swift */; };
@@ -54,6 +56,8 @@
 		6784885823E843200029B7F8 /* TheKWeakestRowsInAMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKWeakestRowsInAMatrix.swift; sourceTree = "<group>"; };
 		6784885A23E84C290029B7F8 /* ReduceArraySizeToTheHalf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceArraySizeToTheHalf.swift; sourceTree = "<group>"; };
 		6784885C23E855440029B7F8 /* MaximumProductOfSplittedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductOfSplittedBinaryTree.swift; sourceTree = "<group>"; };
+		679B451723EAEC6A00586368 /* Maximum69Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum69Number.swift; sourceTree = "<group>"; };
+		679B451923EAEEA300586368 /* PrintWordsVertically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintWordsVertically.swift; sourceTree = "<group>"; };
 		67A322DA23C8D62B00EB746D /* SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 		67A322DE23C903D700EB746D /* N-RepeatedElementInSize2NArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N-RepeatedElementInSize2NArray.swift"; sourceTree = "<group>"; };
 		67A322E623CA258700EB746D /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
@@ -124,8 +128,18 @@
 			children = (
 				67A7836523E98E92006A9169 /* Weekly Contest 174 */,
 				67A7836623E98E9D006A9169 /* Weekly Contest 173 */,
+				679B451623EAEC5200586368 /* Weekly Contest 172 */,
 			);
 			path = Contest;
+			sourceTree = "<group>";
+		};
+		679B451623EAEC5200586368 /* Weekly Contest 172 */ = {
+			isa = PBXGroup;
+			children = (
+				679B451723EAEC6A00586368 /* Maximum69Number.swift */,
+				679B451923EAEEA300586368 /* PrintWordsVertically.swift */,
+			);
+			path = "Weekly Contest 172";
 			sourceTree = "<group>";
 		};
 		67A7836523E98E92006A9169 /* Weekly Contest 174 */ = {
@@ -209,6 +223,7 @@
 				676C00E823BE177200C62D62 /* DefangingAnIpAddress.swift in Sources */,
 				676C00E423BD062B00C62D62 /* TwoSum.swift in Sources */,
 				6784885B23E84C290029B7F8 /* ReduceArraySizeToTheHalf.swift in Sources */,
+				679B451A23EAEEA300586368 /* PrintWordsVertically.swift in Sources */,
 				6766B84923C20D9700FEDA63 /* ToLowerCase.swift in Sources */,
 				6784885D23E855440029B7F8 /* MaximumProductOfSplittedBinaryTree.swift in Sources */,
 				676C00DD23BD060300C62D62 /* main.swift in Sources */,
@@ -223,6 +238,7 @@
 				676C00EF23BE22C700C62D62 /* JewelsAndStones.swift in Sources */,
 				67A322DF23C903D700EB746D /* N-RepeatedElementInSize2NArray.swift in Sources */,
 				67A7836823E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift in Sources */,
+				679B451823EAEC6A00586368 /* Maximum69Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
