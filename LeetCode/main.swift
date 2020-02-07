@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let result = solution.maximum69Number(9669)
+let result = solution.makeConnected(5, [[0,1],[0,2],[3,4],[2,3]])
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
@@ -29,7 +29,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Print Words Vertically
+Number of Operations to Make Network Connected
 """
 print(
   task
