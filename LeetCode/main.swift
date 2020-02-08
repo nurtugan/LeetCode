@@ -29,7 +29,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Number of Operations to Make Network Connected
+Find Common Characters
 """
 print(
   task

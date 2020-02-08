@@ -6,7 +6,7 @@
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
-class TreeNode {
+final class TreeNode {
   public var val: Int
   public var left: TreeNode?
   public var right: TreeNode?

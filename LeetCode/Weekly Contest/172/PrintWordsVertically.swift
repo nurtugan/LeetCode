@@ -9,7 +9,7 @@
 import Foundation
 
 extension Solution {
-  func printVertically(_ s: String) -> [String] {
+  private func printVertically(_ s: String) -> [String] {
     let words = s.split(separator: " ")
     
     let maxLength = words
