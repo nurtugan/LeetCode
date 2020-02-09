@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let result = solution.makeConnected(5, [[0,1],[0,2],[3,4],[2,3]])
+let result = solution.watchedVideosByFriends([["A","B"],["C"],["B","C"],["D"]], [[1,2],[0,3],[0,3],[1,2]], 0, 1)
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
@@ -29,7 +29,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Find Common Characters
+Get Watched Videos by Your Friends
 """
 print(
   task

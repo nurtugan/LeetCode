@@ -30,6 +30,8 @@
 		67A322E723CA258700EB746D /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A322E623CA258700EB746D /* SingleNumber.swift */; };
 		67A7836423E98E80006A9169 /* RemovePalindromicSubsequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7836323E98E80006A9169 /* RemovePalindromicSubsequences.swift */; };
 		67A7836823E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7836723E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift */; };
+		67C217DC23EED34300602834 /* XorQueriesOfASubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C217DB23EED34300602834 /* XorQueriesOfASubarray.swift */; };
+		67C217DE23EEF04200602834 /* GetWatchedVideosByYourFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C217DD23EEF04200602834 /* GetWatchedVideosByYourFriends.swift */; };
 		67C70B5623ED7F8D00CE6C1A /* DecompressRunLengthEncodedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C70B5523ED7F8D00CE6C1A /* DecompressRunLengthEncodedList.swift */; };
 		67C70B5C23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C70B5B23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift */; };
 		67C70B5E23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C70B5D23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift */; };
@@ -75,6 +77,8 @@
 		67A322E623CA258700EB746D /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 		67A7836323E98E80006A9169 /* RemovePalindromicSubsequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovePalindromicSubsequences.swift; sourceTree = "<group>"; };
 		67A7836723E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRestaurantsByVeganfriendlypriceAndDistance.swift; sourceTree = "<group>"; };
+		67C217DB23EED34300602834 /* XorQueriesOfASubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XorQueriesOfASubarray.swift; sourceTree = "<group>"; };
+		67C217DD23EEF04200602834 /* GetWatchedVideosByYourFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWatchedVideosByYourFriends.swift; sourceTree = "<group>"; };
 		67C70B5523ED7F8D00CE6C1A /* DecompressRunLengthEncodedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompressRunLengthEncodedList.swift; sourceTree = "<group>"; };
 		67C70B5B23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumberOfOccurrences.swift; sourceTree = "<group>"; };
 		67C70B5D23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecryptStringFromAlphabetToIntegerMapping.swift; sourceTree = "<group>"; };
@@ -139,7 +143,6 @@
 				67A322DE23C903D700EB746D /* N-RepeatedElementInSize2NArray.swift */,
 				67A322E623CA258700EB746D /* SingleNumber.swift */,
 				67C70B5B23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift */,
-				67C70B5D23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift */,
 				67C70B5F23EDA01900CE6C1A /* FindNUniqueIntegersSumUpToZero.swift */,
 				67C70B6123EDA5CC00CE6C1A /* SortArrayByParity.swift */,
 				67C70B6323EE877D00CE6C1A /* KeyboardRow.swift */,
@@ -154,6 +157,7 @@
 				67A7836623E98E9D006A9169 /* 173 */,
 				679B451623EAEC5200586368 /* 172 */,
 				679B453623EC2A2800586368 /* 171 */,
+				67C217DA23EED09400602834 /* 170 */,
 			);
 			path = "Weekly Contest";
 			sourceTree = "<group>";
@@ -194,6 +198,16 @@
 				67A7836723E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift */,
 			);
 			path = 173;
+			sourceTree = "<group>";
+		};
+		67C217DA23EED09400602834 /* 170 */ = {
+			isa = PBXGroup;
+			children = (
+				67C70B5D23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift */,
+				67C217DB23EED34300602834 /* XorQueriesOfASubarray.swift */,
+				67C217DD23EEF04200602834 /* GetWatchedVideosByYourFriends.swift */,
+			);
+			path = 170;
 			sourceTree = "<group>";
 		};
 		67C70B5323ED7E5A00CE6C1A /* Biweekly Contest */ = {
@@ -293,7 +307,9 @@
 				676C00EF23BE22C700C62D62 /* JewelsAndStones.swift in Sources */,
 				679B453823EC2B1B00586368 /* ConvertIntegerToTheSumOfTwoNoZeroIntegers.swift in Sources */,
 				67A322DF23C903D700EB746D /* N-RepeatedElementInSize2NArray.swift in Sources */,
+				67C217DE23EEF04200602834 /* GetWatchedVideosByYourFriends.swift in Sources */,
 				67C70B6423EE877D00CE6C1A /* KeyboardRow.swift in Sources */,
+				67C217DC23EED34300602834 /* XorQueriesOfASubarray.swift in Sources */,
 				67C70B6023EDA01900CE6C1A /* FindNUniqueIntegersSumUpToZero.swift in Sources */,
 				67A7836823E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift in Sources */,
 				679B453C23EC52F700586368 /* NumberOfOperationsToMakeNetworkConnected.swift in Sources */,
