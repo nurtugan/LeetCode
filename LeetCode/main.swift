@@ -12,7 +12,11 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let result = solution.watchedVideosByFriends([["A","B"],["C"],["B","C"],["D"]], [[1,2],[0,3],[0,3],[1,2]], 0, 1)
+let tree = TreeNode(2)
+tree.left = TreeNode(1)
+tree.right = TreeNode(4)
+
+let result = solution.canReach([3,0,2,1,2], 2)
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
@@ -29,7 +33,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Get Watched Videos by Your Friends
+Jump Game III
 """
 print(
   task

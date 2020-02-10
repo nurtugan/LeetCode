@@ -32,6 +32,8 @@
 		67A7836823E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7836723E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift */; };
 		67C217DC23EED34300602834 /* XorQueriesOfASubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C217DB23EED34300602834 /* XorQueriesOfASubarray.swift */; };
 		67C217DE23EEF04200602834 /* GetWatchedVideosByYourFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C217DD23EEF04200602834 /* GetWatchedVideosByYourFriends.swift */; };
+		67C217EC23F0201C00602834 /* AllElementsInTwoBinarySearchTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C217EB23F0201C00602834 /* AllElementsInTwoBinarySearchTrees.swift */; };
+		67C217F023F02D3D00602834 /* JumpGameIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C217EF23F02D3D00602834 /* JumpGameIII.swift */; };
 		67C70B5623ED7F8D00CE6C1A /* DecompressRunLengthEncodedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C70B5523ED7F8D00CE6C1A /* DecompressRunLengthEncodedList.swift */; };
 		67C70B5C23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C70B5B23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift */; };
 		67C70B5E23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C70B5D23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift */; };
@@ -79,6 +81,8 @@
 		67A7836723E99E93006A9169 /* FilterRestaurantsByVeganfriendlypriceAndDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRestaurantsByVeganfriendlypriceAndDistance.swift; sourceTree = "<group>"; };
 		67C217DB23EED34300602834 /* XorQueriesOfASubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XorQueriesOfASubarray.swift; sourceTree = "<group>"; };
 		67C217DD23EEF04200602834 /* GetWatchedVideosByYourFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWatchedVideosByYourFriends.swift; sourceTree = "<group>"; };
+		67C217EB23F0201C00602834 /* AllElementsInTwoBinarySearchTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementsInTwoBinarySearchTrees.swift; sourceTree = "<group>"; };
+		67C217EF23F02D3D00602834 /* JumpGameIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameIII.swift; sourceTree = "<group>"; };
 		67C70B5523ED7F8D00CE6C1A /* DecompressRunLengthEncodedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecompressRunLengthEncodedList.swift; sourceTree = "<group>"; };
 		67C70B5B23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumberOfOccurrences.swift; sourceTree = "<group>"; };
 		67C70B5D23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecryptStringFromAlphabetToIntegerMapping.swift; sourceTree = "<group>"; };
@@ -143,7 +147,6 @@
 				67A322DE23C903D700EB746D /* N-RepeatedElementInSize2NArray.swift */,
 				67A322E623CA258700EB746D /* SingleNumber.swift */,
 				67C70B5B23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift */,
-				67C70B5F23EDA01900CE6C1A /* FindNUniqueIntegersSumUpToZero.swift */,
 				67C70B6123EDA5CC00CE6C1A /* SortArrayByParity.swift */,
 				67C70B6323EE877D00CE6C1A /* KeyboardRow.swift */,
 			);
@@ -158,6 +161,7 @@
 				679B451623EAEC5200586368 /* 172 */,
 				679B453623EC2A2800586368 /* 171 */,
 				67C217DA23EED09400602834 /* 170 */,
+				67C217EA23F01F8500602834 /* 169 */,
 			);
 			path = "Weekly Contest";
 			sourceTree = "<group>";
@@ -208,6 +212,16 @@
 				67C217DD23EEF04200602834 /* GetWatchedVideosByYourFriends.swift */,
 			);
 			path = 170;
+			sourceTree = "<group>";
+		};
+		67C217EA23F01F8500602834 /* 169 */ = {
+			isa = PBXGroup;
+			children = (
+				67C70B5F23EDA01900CE6C1A /* FindNUniqueIntegersSumUpToZero.swift */,
+				67C217EB23F0201C00602834 /* AllElementsInTwoBinarySearchTrees.swift */,
+				67C217EF23F02D3D00602834 /* JumpGameIII.swift */,
+			);
+			path = 169;
 			sourceTree = "<group>";
 		};
 		67C70B5323ED7E5A00CE6C1A /* Biweekly Contest */ = {
@@ -291,6 +305,7 @@
 				67C70B5C23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift in Sources */,
 				679B451A23EAEEA300586368 /* PrintWordsVertically.swift in Sources */,
 				6766B84923C20D9700FEDA63 /* ToLowerCase.swift in Sources */,
+				67C217EC23F0201C00602834 /* AllElementsInTwoBinarySearchTrees.swift in Sources */,
 				6784885D23E855440029B7F8 /* MaximumProductOfSplittedBinaryTree.swift in Sources */,
 				676C00DD23BD060300C62D62 /* main.swift in Sources */,
 				67C70B6223EDA5CC00CE6C1A /* SortArrayByParity.swift in Sources */,
@@ -305,6 +320,7 @@
 				6766B84B23C2158300FEDA63 /* LengthOfLastWord.swift in Sources */,
 				6784885923E843200029B7F8 /* TheKWeakestRowsInAMatrix.swift in Sources */,
 				676C00EF23BE22C700C62D62 /* JewelsAndStones.swift in Sources */,
+				67C217F023F02D3D00602834 /* JumpGameIII.swift in Sources */,
 				679B453823EC2B1B00586368 /* ConvertIntegerToTheSumOfTwoNoZeroIntegers.swift in Sources */,
 				67A322DF23C903D700EB746D /* N-RepeatedElementInSize2NArray.swift in Sources */,
 				67C217DE23EEF04200602834 /* GetWatchedVideosByYourFriends.swift in Sources */,
