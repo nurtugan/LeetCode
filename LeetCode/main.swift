@@ -12,11 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let tree = TreeNode(2)
-tree.left = TreeNode(1)
-tree.right = TreeNode(4)
-
-let result = solution.canReach([3,0,2,1,2], 2)
+let result = solution.findBestValue([1547,83230,57084,93444,70879], 71237)
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
@@ -33,7 +29,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Jump Game III
+Deepest Leaves Sum
 """
 print(
   task
