@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let result = solution.findBestValue([1547,83230,57084,93444,70879], 71237)
+let result = solution.balancedStringSplit("")
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
@@ -29,7 +29,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Deepest Leaves Sum
+Divide Array in Sets of K Consecutive Numbers
 """
 print(
   task
@@ -39,3 +39,7 @@ print(
 
 // TODO:
 // 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+
+/* Finish
+ 1. Weekly 168 (all problems)
+ */
