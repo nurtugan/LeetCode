@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let result = solution.balancedStringSplit("")
+let result = solution.maxSideLength([[1,1,1,1],[1,0,0,0],[1,0,0,0],[1,0,0,0]], 6)
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
@@ -29,7 +29,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Divide Array in Sets of K Consecutive Numbers
+Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 """
 print(
   task
