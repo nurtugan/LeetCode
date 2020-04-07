@@ -14,6 +14,11 @@
 		67412859243CB0D1004B1C68 /* MinimumSubsequenceInNonIncreasingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67412858243CB0D1004B1C68 /* MinimumSubsequenceInNonIncreasingOrder.swift */; };
 		6741285B243CB463004B1C68 /* NumberOfStepsToReduceANumberInBinaryRepresentationToOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6741285A243CB463004B1C68 /* NumberOfStepsToReduceANumberInBinaryRepresentationToOne.swift */; };
 		6741285D243CBA9C004B1C68 /* LongestHappyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6741285C243CBA9C004B1C68 /* LongestHappyString.swift */; };
+		6741285F243D0394004B1C68 /* NumberOfStepsToReduceANumberToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6741285E243D0394004B1C68 /* NumberOfStepsToReduceANumberToZero.swift */; };
+		67412861243D0544004B1C68 /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67412860243D0544004B1C68 /* HammingDistance.swift */; };
+		67412863243D0B62004B1C68 /* NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67412862243D0B62004B1C68 /* NumberOf1Bits.swift */; };
+		67412865243D0CA3004B1C68 /* ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67412864243D0CA3004B1C68 /* ReverseBits.swift */; };
+		67412867243D10F6004B1C68 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67412866243D10F6004B1C68 /* ReverseInteger.swift */; };
 		6766B84923C20D9700FEDA63 /* ToLowerCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B84823C20D9700FEDA63 /* ToLowerCase.swift */; };
 		6766B84B23C2158300FEDA63 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B84A23C2158300FEDA63 /* LengthOfLastWord.swift */; };
 		676C00DD23BD060300C62D62 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C00DC23BD060300C62D62 /* main.swift */; };
@@ -70,6 +75,11 @@
 		67412858243CB0D1004B1C68 /* MinimumSubsequenceInNonIncreasingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSubsequenceInNonIncreasingOrder.swift; sourceTree = "<group>"; };
 		6741285A243CB463004B1C68 /* NumberOfStepsToReduceANumberInBinaryRepresentationToOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfStepsToReduceANumberInBinaryRepresentationToOne.swift; sourceTree = "<group>"; };
 		6741285C243CBA9C004B1C68 /* LongestHappyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestHappyString.swift; sourceTree = "<group>"; };
+		6741285E243D0394004B1C68 /* NumberOfStepsToReduceANumberToZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfStepsToReduceANumberToZero.swift; sourceTree = "<group>"; };
+		67412860243D0544004B1C68 /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
+		67412862243D0B62004B1C68 /* NumberOf1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOf1Bits.swift; sourceTree = "<group>"; };
+		67412864243D0CA3004B1C68 /* ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBits.swift; sourceTree = "<group>"; };
+		67412866243D10F6004B1C68 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		6766B84823C20D9700FEDA63 /* ToLowerCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToLowerCase.swift; sourceTree = "<group>"; };
 		6766B84A23C2158300FEDA63 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 		676C00D923BD060300C62D62 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +193,11 @@
 				67C70B5B23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift */,
 				67C70B6123EDA5CC00CE6C1A /* SortArrayByParity.swift */,
 				67C70B6323EE877D00CE6C1A /* KeyboardRow.swift */,
+				6741285E243D0394004B1C68 /* NumberOfStepsToReduceANumberToZero.swift */,
+				67412860243D0544004B1C68 /* HammingDistance.swift */,
+				67412862243D0B62004B1C68 /* NumberOf1Bits.swift */,
+				67412864243D0CA3004B1C68 /* ReverseBits.swift */,
+				67412866243D10F6004B1C68 /* ReverseInteger.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -361,17 +376,21 @@
 				67C70B5C23ED8E9F00CE6C1A /* UniqueNumberOfOccurrences.swift in Sources */,
 				679B451A23EAEEA300586368 /* PrintWordsVertically.swift in Sources */,
 				6766B84923C20D9700FEDA63 /* ToLowerCase.swift in Sources */,
+				67412863243D0B62004B1C68 /* NumberOf1Bits.swift in Sources */,
+				67412865243D0CA3004B1C68 /* ReverseBits.swift in Sources */,
 				67C217EC23F0201C00602834 /* AllElementsInTwoBinarySearchTrees.swift in Sources */,
 				67D8105623F1903F007505AB /* DeepestLeavesSum.swift in Sources */,
 				6784885D23E855440029B7F8 /* MaximumProductOfSplittedBinaryTree.swift in Sources */,
 				67412859243CB0D1004B1C68 /* MinimumSubsequenceInNonIncreasingOrder.swift in Sources */,
 				676C00DD23BD060300C62D62 /* main.swift in Sources */,
+				6741285F243D0394004B1C68 /* NumberOfStepsToReduceANumberToZero.swift in Sources */,
 				67C70B6223EDA5CC00CE6C1A /* SortArrayByParity.swift in Sources */,
 				67A7836423E98E80006A9169 /* RemovePalindromicSubsequences.swift in Sources */,
 				67C70B5623ED7F8D00CE6C1A /* DecompressRunLengthEncodedList.swift in Sources */,
 				676C00EA23BE191600C62D62 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
 				676C00ED23BE1EA900C62D62 /* SubtractTheProductAndSumOfDigitsOfAnInteger.swift in Sources */,
 				6702656523C0AE6E009F4B4C /* SplitAStringInBalancedStrings.swift in Sources */,
+				67412867243D10F6004B1C68 /* ReverseInteger.swift in Sources */,
 				67A322E723CA258700EB746D /* SingleNumber.swift in Sources */,
 				673EE4B123F57FDD005D8359 /* MaximumSideLengthOfASquareWithSumLessThanOrEqualToThreshold.swift in Sources */,
 				67C70B5E23ED96BB00CE6C1A /* DecryptStringFromAlphabetToIntegerMapping.swift in Sources */,
@@ -379,6 +398,7 @@
 				67108F1323F563740046B61C /* ConvertBinaryNumberInALinkedListToInteger.swift in Sources */,
 				6766B84B23C2158300FEDA63 /* LengthOfLastWord.swift in Sources */,
 				6784885923E843200029B7F8 /* TheKWeakestRowsInAMatrix.swift in Sources */,
+				67412861243D0544004B1C68 /* HammingDistance.swift in Sources */,
 				676C00EF23BE22C700C62D62 /* JewelsAndStones.swift in Sources */,
 				67C217F023F02D3D00602834 /* JumpGameIII.swift in Sources */,
 				679B453823EC2B1B00586368 /* ConvertIntegerToTheSumOfTwoNoZeroIntegers.swift in Sources */,

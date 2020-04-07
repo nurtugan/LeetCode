@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let result = solution.longestDiverseString(0, 8, 11)
+let result = solution.reverseBits(43261596)
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
@@ -29,7 +29,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Number of Steps to Reduce a Number in Binary Representation to One
+Number of Steps to Reduce a Number to Zero
 """
 print(
   task
