@@ -6,8 +6,6 @@
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
-import Foundation
-
 extension Solution {
   private func printVertically(_ s: String) -> [String] {
     let words = s.split(separator: " ")

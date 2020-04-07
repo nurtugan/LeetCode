@@ -6,8 +6,6 @@
 //  Copyright © 2020 XFamily. All rights reserved.
 //
 
-import Foundation
-
 extension Solution {
   func findBestValue(_ arr: [Int], _ target: Int) -> Int {
     var target = target
