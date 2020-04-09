@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let result = solution.reverseBits(43261596)
+let result = solution.canConstruct("annabelle", 2)
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
