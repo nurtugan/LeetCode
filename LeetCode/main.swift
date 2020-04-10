@@ -12,7 +12,7 @@ let solution = Solution()
 
 let startTime = CFAbsoluteTimeGetCurrent() // Start time
 
-let result = solution.canConstruct("annabelle", 2)
+let result = solution.numTeams([1,2,3,4])
 
 let timeElapsed = CFAbsoluteTimeGetCurrent() - startTime // End time
 
@@ -29,7 +29,7 @@ print(result)
 print("Time elapsed: \(timeElapsed * 1000) ms.")
 
 let task = """
-Number of Steps to Reduce a Number to Zero
+Find Lucky Integer in an Array
 """
 print(
   task
